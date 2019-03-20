@@ -18,7 +18,6 @@ RUN set -ex ;\
     pip install -U setuptools ;\
     pip install wheel ;\
     pip install -e tempest/ \
-                   cinder-tempest-plugin/ \
                    heat-tempest-plugin/ \
                    keystone-tempest-plugin/ \
                    neutron-tempest-plugin/ ;\
